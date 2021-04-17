@@ -1,0 +1,158 @@
+
+/* @media (max-width: 575.98px) { ... } */
+
+/* @media (max-width: 767.98px) { ... } */
+
+/* @media (max-width: 991.98px) { ... } */
+
+/* @media (max-width: 1199.98px) { ... } */
+
+@media (max-width: 1344.98px) {
+    .container{
+        max-width: 90% !important;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .hero_area .hero_content h1{
+        font-size:60px
+    }
+    .hero_area .hero_content p{
+        width: 80%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .left_bar, .right_bar{
+        text-align: center !important;
+    }
+    .left_bar{
+        margin-bottom: 8px;
+    }
+    nav .navbar-nav li .nav-link,
+    nav .navbar-nav li.active .nav-link{
+        display: block;
+        border: none;
+        margin: 5px 0;
+    }
+    .search-icon{
+        display: none;
+    }
+    nav .navbar-nav li:hover .nav-link,
+    nav .navbar-nav li.active:hover .nav-link{
+        background: #f5f7fa;
+        color: #0872b9 !important;
+        border: none;
+        border-radius: 0;
+    }
+    .hero_area .hero_content{
+        width: 90%;
+        padding: 150px 0;
+        text-align: center;
+    }
+    .hero_area .hero_content h1{
+        font-size:45px
+    }
+    .hero_area .hero_content p{
+        font-size: 17px;
+        font-weight: 500;
+        width: 85%;
+    }
+    .hero_area .hero_content a{
+        margin-top: 20px;
+        padding: 8px 25px;
+    }
+    .section_description{
+        font-size: 17px;
+    }
+    .services_section .card{
+        margin: 55px 0 20px;
+    }
+    .testimonial_section .card,
+    .team_section .card{
+        margin: 25px 0;
+    }
+    
+    .testimonial_section .card .card_content::after {
+        content: '';
+        left: 46.5%;
+    }
+    .team_section .card .card_img .img_overlay {
+        width: 100% !important;
+        height: 62px;
+        text-align: center;
+        opacity: 1;
+        visibility: visible;
+        padding: 4px 0;
+        background: #5bc5f4;
+    }
+    .team_section .card .card_img .img_overlay a {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        line-height: 40px;
+        text-align: center;
+        font-size: 18px;
+        transition: all .3s ease;
+        margin: 7px 5px;
+    }
+    .team_section .card .card_img .img_overlay a:hover{
+        border: 1px solid #fff;
+    }
+    .footer_section .widget{
+        margin: 30px 0;
+    }
+    .footer_section .widget_heading{
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .section_heading {
+        font-size: 35px;
+        margin-bottom: 12px;
+    }
+    .hero_area .hero_content p{
+        width: 90%;
+    }
+    .footer_section .widget_heading{
+        font-size: 25px;
+    }
+    .footer_section .widget{
+        margin: 25px 0;
+    }
+    .left_bar{
+        display: none;
+    }
+    .right_bar{
+        margin: 0;
+    }
+    .hero_area .hero_content{
+        width: 100%;
+    }
+    .portfolio_section .card{
+        margin: 15px 0;
+    }
+    .footer_section .widget .images img{
+        width: 49%;
+    }
+    .footer_section .widget ul li .cont span{
+        display: block;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container{
+        width: 90%;
+    }
+    .hero_area .hero_content p{
+        width: 100%;
+    }
+}
+
+@media (max-width: 419.98px){
+    .container{
+        width: 95%;
+    }
+}
